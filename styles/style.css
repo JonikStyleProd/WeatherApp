@@ -1,0 +1,82 @@
+html { 
+    background: url(../images/gip.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+  }
+
+  body {
+      background: none;
+  }
+  #mainDiv {
+      text-align: center;
+      margin-top: 10%;
+      width: 35%;
+  }
+  h1 {
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+  }
+
+  #city {
+    margin: 5%  0;
+  }
+  #forcastDiv {
+      text-align: center;
+  }
+
+  .alert {
+      width: 70%;
+      max-width: 0 auto;
+      margin-top: 10%;
+      margin-left: 15%;
+  }
+
+
+  .footer-basic {
+    margin-top: 28%;
+    padding:40px 0;
+    background: none;
+    color:#797979;
+
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+    
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+    text-shadow: 1px 1px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+  }
+  
+  .footer-basic .social > a {
+    font-size:40px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+    color: whitesmoke;
+    
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:20px;
+    color:rgb(223, 223, 223);
+    margin-bottom:0;
+  }
+  
